@@ -10,7 +10,6 @@ body{
     background: #E6E6E6;
 }
 #header{
-    width: 100%;
     padding: 15px;
     background: #1C1C1C;
     margin-bottom: 25px;
@@ -18,19 +17,25 @@ body{
 #logo{
     display: inline-block;
     color: #CCC;
-    padding-right: 70%;
     padding-left:5%;
 }
 #menu{
     display: inline-block;
+    float: right;
+    padding-right: 5%;
 }
 #map{
-    height: 650px; 
+    background: #fff;
+    border: none;
+    height: 640px;
     width: 80%;
     margin: 0px auto;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 #rodape{
-    width: 100%;
     padding: 15px;
     background: #1C1C1C;
     margin-top: 25px;
